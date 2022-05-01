@@ -8,6 +8,7 @@ import utils.GenericMethods;
 
 public class Application {
 	@Test 
+	//Making changes after R 1.1
 	public void verifyInvalidLogin() throws IOException {
 		String[][] data = GenericMethods.getData("D:\\Sel3Apr\\TestData.xlsx"	, "Sheet2");
 		Methods mtd = new Methods();
